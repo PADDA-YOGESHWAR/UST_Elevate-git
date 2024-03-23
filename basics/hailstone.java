@@ -15,7 +15,7 @@ public class hailstone{
                 steps++;
                 n=3*n+1;
             }
-            System.out.println("There are total "+steps+" steps to reach 1");
         }
+        System.out.println("There are total "+steps+" steps to reach 1");
     }
 }
