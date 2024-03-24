@@ -64,6 +64,9 @@ public class arithmetic {
         b-=4;//b=b-4 (b=20-4)  
         System.out.println(a);  
         System.out.println(b);  
-        
+        short x=10;  
+        short y=10;  
+        x=(short)(x+y);//20 which is int now converted to short  
+        System.out.println(x);  
         }
 }
