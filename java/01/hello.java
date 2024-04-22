@@ -19,4 +19,9 @@ class hello// main class
         User obj = new User();// user defined object is created for User class
         obj.in();// "in" function is called
     }
+
+    public void start() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'start'");
+    }
 }

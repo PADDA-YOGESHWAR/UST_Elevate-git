@@ -1,0 +1,1 @@
+To solve this problem, you can use a string matching algorithm to search for the hidden message within the innocent text file. One efficient algorithm for string matching is the Knuth Morris-Pratt (KMP) algorithm, which has a time complexity of O(n + m), where n is the length of the text and m is the length of the pattern (hidden message).

@@ -11,6 +11,7 @@ public class premitive {
 
         // char data type
         char charVar = 'A';
+        charVar++;
         System.out.println("char: Size = " + Character.SIZE + " bits, Value = " + charVar);
 
         // short data type
