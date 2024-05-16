@@ -1,0 +1,51 @@
+Sure, here's a brief overview of when to use each data structure:
+
+1. **ArrayList**:
+   - Use when you need a dynamic array that can grow or shrink in size.
+   - Suitable for random access and iterating through elements.
+
+2. **LinkedList**:
+   - Use when you frequently need to add or remove elements from the beginning, middle, or end of the list.
+   - Efficient for insertion and deletion operations.
+
+3. **HashMap**:
+   - Use when you need a data structure to store key-value pairs with fast insertion, deletion, and retrieval operations.
+   - Suitable for scenarios where you need to quickly access values based on their associated keys.
+
+4. **HashSet**:
+   - Use when you need to store a collection of unique elements without duplicates.
+   - Suitable for scenarios where you need to quickly check for the presence of an element.
+
+5. **TreeMap**:
+   - Use when you need a sorted map based on the natural ordering of its keys or a custom comparator.
+   - Suitable for scenarios where you need to maintain elements in sorted order based on keys.
+
+6. **TreeSet**:
+   - Use when you need to store a sorted set of unique elements.
+   - Suitable for scenarios where you need to maintain elements in sorted order and ensure uniqueness.
+
+7. **Stack**:
+   - Use when you need to implement a LIFO (Last-In-First-Out) data structure.
+   - Suitable for scenarios such as expression evaluation, backtracking, or handling function calls in recursion.
+
+8. **Queue**:
+   - Use when you need to implement a FIFO (First-In-First-Out) data structure.
+   - Suitable for scenarios such as task scheduling, breadth-first search, or modeling real-world queues.
+
+9. **PriorityQueue**:
+   - Use when you need a queue where elements are ordered based on their natural ordering or a custom comparator.
+   - Suitable for scenarios where elements need to be processed based on priority.
+
+10. **Deque**:
+    - Use when you need to perform insertion and deletion operations at both ends of the data structure.
+    - Suitable for scenarios such as implementing double-ended queues, deque-based algorithms, or managing sliding windows in algorithms.
+
+11. **LinkedHashMap**:
+    - Use when you need a combination of hash table and linked list data structures with predictable iteration order.
+    - Suitable for scenarios where you need to maintain insertion order or access order.
+
+12. **LinkedHashSet**:
+    - Use when you need a set with predictable iteration order and uniqueness of elements.
+    - Suitable for scenarios where you need to maintain insertion order or access order while ensuring uniqueness.
+
+Each data structure has its strengths and weaknesses, so the choice depends on the specific requirements of your application, such as the frequency of insertions, deletions, and lookups, as well as the ordering and uniqueness constraints.
